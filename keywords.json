@@ -1,0 +1,986 @@
+{
+  "keywords": {
+    "iso 7637-1 transient immunity automotive": {
+      "original": "ISO 7637-1 transient immunity automotive",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "iso 7637-2 conducted transient test pulse": {
+      "original": "ISO 7637-2 conducted transient test pulse",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "iso 7637-3 electrical disturbances coupling capacitive": {
+      "original": "ISO 7637-3 electrical disturbances coupling capacitive",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "iso 7637 pulse 1 2a 2b 3a 3b test": {
+      "original": "ISO 7637 pulse 1 2a 2b 3a 3b test",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "iso 7637 test pulse waveform specification": {
+      "original": "ISO 7637 test pulse waveform specification",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "iso 7637 load dump pulse 5 automotive": {
+      "original": "ISO 7637 load dump pulse 5 automotive",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "iso 7637 transient voltage suppression tvs": {
+      "original": "ISO 7637 transient voltage suppression TVS",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "iso 7637-2 pulse generator design": {
+      "original": "ISO 7637-2 pulse generator design",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "iso 7637 compliance test report": {
+      "original": "ISO 7637 compliance test report",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "iso 7637 immunity level classification": {
+      "original": "ISO 7637 immunity level classification",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "iso 16750 environmental testing automotive electronics": {
+      "original": "ISO 16750 environmental testing automotive electronics",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "iso 16750-2 electrical load test automotive": {
+      "original": "ISO 16750-2 electrical load test automotive",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "iso 16750 supply voltage variation test": {
+      "original": "ISO 16750 supply voltage variation test",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "iso 16750 superimposed alternating voltage test": {
+      "original": "ISO 16750 superimposed alternating voltage test",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "iso 16750 slow decrease increase voltage": {
+      "original": "ISO 16750 slow decrease increase voltage",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "cispr 25 vehicle emc measurement": {
+      "original": "CISPR 25 vehicle EMC measurement",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "cispr 25 radiated emission measurement automotive": {
+      "original": "CISPR 25 radiated emission measurement automotive",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "cispr 12 vehicle electromagnetic emission": {
+      "original": "CISPR 12 vehicle electromagnetic emission",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "iec 61000-4-2 esd immunity test": {
+      "original": "IEC 61000-4-2 ESD immunity test",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "iec 61000-4-4 electrical fast transient burst": {
+      "original": "IEC 61000-4-4 electrical fast transient burst",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "iec 61000-4-5 surge immunity test": {
+      "original": "IEC 61000-4-5 surge immunity test",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "iec 61000-4-6 conducted immunity rf": {
+      "original": "IEC 61000-4-6 conducted immunity RF",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "iec 61000-4-3 radiated immunity test": {
+      "original": "IEC 61000-4-3 radiated immunity test",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "iec 62132 ic level emc measurement": {
+      "original": "IEC 62132 IC level EMC measurement",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "iec 61967 ic emission measurement": {
+      "original": "IEC 61967 IC emission measurement",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "automotive emc test standard overview": {
+      "original": "automotive EMC test standard overview",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "automotive emi filter design guide": {
+      "original": "automotive EMI filter design guide",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "automotive emc compliance design guideline": {
+      "original": "automotive EMC compliance design guideline",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "automotive transient protection circuit design": {
+      "original": "automotive transient protection circuit design",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "automotive load dump protection design": {
+      "original": "automotive load dump protection design",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "automotive emc pcb layout guideline": {
+      "original": "automotive EMC PCB layout guideline",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "automotive power supply emi reduction": {
+      "original": "automotive power supply EMI reduction",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "sae j551 emc standard vehicle": {
+      "original": "SAE J551 EMC standard vehicle",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "automotive power module aec-q100 qualification": {
+      "original": "automotive power module AEC-Q100 qualification",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "aec-q100 reliability test automotive ic": {
+      "original": "AEC-Q100 reliability test automotive IC",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "aec-q101 discrete semiconductor qualification": {
+      "original": "AEC-Q101 discrete semiconductor qualification",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "aec-q200 passive component qualification": {
+      "original": "AEC-Q200 passive component qualification",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "automotive grade component reliability test": {
+      "original": "automotive grade component reliability test",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "htol htsl test automotive ic": {
+      "original": "HTOL HTSL test automotive IC",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "transient voltage suppressor tvs diode selection": {
+      "original": "transient voltage suppressor TVS diode selection",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "tvs diode automotive application note": {
+      "original": "TVS diode automotive application note",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "esd protection automotive design guide": {
+      "original": "ESD protection automotive design guide",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "transient protection circuit automotive power supply": {
+      "original": "transient protection circuit automotive power supply",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "clamping voltage tvs automotive 12v 24v": {
+      "original": "clamping voltage TVS automotive 12V 24V",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "bidirectional tvs diode datasheet": {
+      "original": "bidirectional TVS diode datasheet",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "tvs diode array automotive bus protection": {
+      "original": "TVS diode array automotive bus protection",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "load dump protection circuit design": {
+      "original": "load dump protection circuit design",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "reverse battery protection automotive": {
+      "original": "reverse battery protection automotive",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "overvoltage protection automotive ecu": {
+      "original": "overvoltage protection automotive ECU",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "emi filter design automotive power supply": {
+      "original": "EMI filter design automotive power supply",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "common mode choke automotive emc": {
+      "original": "common mode choke automotive EMC",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "ferrite bead selection emi suppression": {
+      "original": "ferrite bead selection EMI suppression",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "lc filter emi automotive application": {
+      "original": "LC filter EMI automotive application",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "pi filter emc design guideline": {
+      "original": "Pi filter EMC design guideline",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "input filter design dc-dc converter emi": {
+      "original": "input filter design DC-DC converter EMI",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "spread spectrum frequency modulation emi": {
+      "original": "spread spectrum frequency modulation EMI",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "emi reduction pcb layout technique": {
+      "original": "EMI reduction PCB layout technique",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "shielding technique automotive emc": {
+      "original": "shielding technique automotive EMC",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "ground plane design emi reduction": {
+      "original": "ground plane design EMI reduction",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "bulk current injection bci test automotive": {
+      "original": "bulk current injection BCI test automotive",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "radiated susceptibility test automotive": {
+      "original": "radiated susceptibility test automotive",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "conducted emission measurement method": {
+      "original": "conducted emission measurement method",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "dpi direct power injection ic test": {
+      "original": "DPI direct power injection IC test",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "tem cell emc measurement": {
+      "original": "TEM cell EMC measurement",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "stripline emc test method": {
+      "original": "stripline EMC test method",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "automotive emc test setup configuration": {
+      "original": "automotive EMC test setup configuration",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "emc pre-compliance test guide": {
+      "original": "EMC pre-compliance test guide",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "near field probe emi debugging": {
+      "original": "near field probe EMI debugging",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "spectrum analyzer emi measurement automotive": {
+      "original": "spectrum analyzer EMI measurement automotive",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "automotive 12v 24v 48v system architecture": {
+      "original": "automotive 12V 24V 48V system architecture",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "automotive power distribution protection": {
+      "original": "automotive power distribution protection",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "automotive fuse circuit breaker selection": {
+      "original": "automotive fuse circuit breaker selection",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "automotive wire harness emc shielding": {
+      "original": "automotive wire harness EMC shielding",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "vehicle electrical system transient analysis": {
+      "original": "vehicle electrical system transient analysis",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "cold crank voltage dip automotive": {
+      "original": "cold crank voltage dip automotive",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "jump start overvoltage automotive protection": {
+      "original": "jump start overvoltage automotive protection",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "double battery automotive 24v system": {
+      "original": "double battery automotive 24V system",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "mild hybrid 48v system emc challenge": {
+      "original": "mild hybrid 48V system EMC challenge",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "48v automotive power supply emc design": {
+      "original": "48V automotive power supply EMC design",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "automotive dc-dc converter emc performance": {
+      "original": "automotive DC-DC converter EMC performance",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "dc-dc converter radiated emission reduction": {
+      "original": "DC-DC converter radiated emission reduction",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "dc-dc converter conducted emission filter": {
+      "original": "DC-DC converter conducted emission filter",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "switching regulator emi automotive": {
+      "original": "switching regulator EMI automotive",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "synchronous buck converter emi reduction": {
+      "original": "synchronous buck converter EMI reduction",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "automotive grade voltage regulator emc": {
+      "original": "automotive grade voltage regulator EMC",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "low emi dc-dc converter automotive": {
+      "original": "low EMI DC-DC converter automotive",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "silent switcher automotive application": {
+      "original": "silent switcher automotive application",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "spread spectrum dc-dc converter automotive": {
+      "original": "spread spectrum DC-DC converter automotive",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "automotive power module emc test result": {
+      "original": "automotive power module EMC test result",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "esd protection automotive electronic module": {
+      "original": "ESD protection automotive electronic module",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "human body model hbm esd test": {
+      "original": "human body model HBM ESD test",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "charged device model cdm esd test": {
+      "original": "charged device model CDM ESD test",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "system level esd protection design": {
+      "original": "system level ESD protection design",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "esd protection can lin bus automotive": {
+      "original": "ESD protection CAN LIN bus automotive",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "esd suppressor automotive connector": {
+      "original": "ESD suppressor automotive connector",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "esd tvs selection guide automotive": {
+      "original": "ESD TVS selection guide automotive",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "emc simulation spice model automotive": {
+      "original": "EMC simulation SPICE model automotive",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "transient simulation iso 7637 spice": {
+      "original": "transient simulation ISO 7637 SPICE",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "emi simulation automotive power supply": {
+      "original": "EMI simulation automotive power supply",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "pcb emc simulation tool": {
+      "original": "PCB EMC simulation tool",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "signal integrity emc co-simulation": {
+      "original": "signal integrity EMC co-simulation",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "automotive environmental test vibration shock": {
+      "original": "automotive environmental test vibration shock",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "thermal cycling test automotive electronics": {
+      "original": "thermal cycling test automotive electronics",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "humidity test automotive electronic module": {
+      "original": "humidity test automotive electronic module",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "salt spray corrosion test automotive": {
+      "original": "salt spray corrosion test automotive",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "automotive reliability test plan template": {
+      "original": "automotive reliability test plan template",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "fmea automotive electronic reliability": {
+      "original": "FMEA automotive electronic reliability",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "mission profile automotive electronic module": {
+      "original": "mission profile automotive electronic module",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "ti automotive emc design reference": {
+      "original": "TI automotive EMC design reference",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "infineon automotive transient protection": {
+      "original": "Infineon automotive transient protection",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "nxp automotive emc application note": {
+      "original": "NXP automotive EMC application note",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "stmicroelectronics automotive emc guide": {
+      "original": "STMicroelectronics automotive EMC guide",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "littelfuse automotive tvs selection guide": {
+      "original": "Littelfuse automotive TVS selection guide",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "bourns automotive transient suppressor": {
+      "original": "Bourns automotive transient suppressor",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "nexperia esd protection automotive": {
+      "original": "Nexperia ESD protection automotive",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "vishay automotive tvs diode application": {
+      "original": "Vishay automotive TVS diode application",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "on semiconductor automotive emc solution": {
+      "original": "ON Semiconductor automotive EMC solution",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "murata automotive emi filter solution": {
+      "original": "Murata automotive EMI filter solution",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:00:29.709395",
+      "last_used": "2026-02-15T09:00:29.709395"
+    },
+    "bidirectional buck-boost converter automotive emc": {
+      "original": "bidirectional buck-boost converter automotive EMC",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:11:20.971566",
+      "last_used": "2026-02-15T09:11:20.971566"
+    },
+    "bidirectional dc-dc converter transient protection": {
+      "original": "bidirectional DC-DC converter transient protection",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:11:20.971566",
+      "last_used": "2026-02-15T09:11:20.971566"
+    },
+    "automotive bidirectional power module qualification": {
+      "original": "automotive bidirectional power module qualification",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:11:20.971566",
+      "last_used": "2026-02-15T09:11:20.971566"
+    },
+    "bidirectional buck-boost reliability test aec-q100": {
+      "original": "bidirectional buck-boost reliability test AEC-Q100",
+      "used_count": 0,
+      "files_found": 0,
+      "total_size": 0,
+      "first_used": "2026-02-15T09:11:20.971566",
+      "last_used": "2026-02-15T09:11:20.971566"
+    }
+  },
+  "statistics": {
+    "total_keywords_used": 0,
+    "total_searches": 0,
+    "total_files_downloaded": 0,
+    "last_updated": "2026-02-15T09:13:17.586694"
+  }
+}

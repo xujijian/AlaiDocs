@@ -1,0 +1,10 @@
+# DC-DC Datasheet 自动下载工具（浏览器版）依赖
+
+# 浏览器自动化
+selenium>=4.16.0
+webdriver-manager>=4.0.1
+
+# 原有依赖（可选，仅供 API 版本使用）
+# duckduckgo-search>=4.0.0
+# requests>=2.31.0
+# tqdm>=4.66.0

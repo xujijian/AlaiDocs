@@ -1,0 +1,29 @@
+# DC-DC Datasheet 下载工具依赖
+# Python 3.10+ required
+
+# Google 搜索支持（2026-01-27 新增）
+googlesearch-python>=1.2.3  # Google 搜索 API
+
+# 核心依赖
+# 注意: duckduckgo-search 已更名为 ddgs，两者都支持
+ddgs>=0.1.0                 # DuckDuckGo 搜索 API（新版本名称）
+duckduckgo-search>=5.0.0    # DuckDuckGo 搜索 API（旧版本兼容）
+requests>=2.31.0            # HTTP 客户端（下载、重试、超时控制）
+
+# 可选依赖（提升体验）
+tqdm>=4.66.0                # 进度条显示（可选，但建议安装）
+
+# 说明:
+# 1. duckduckgo-search: 
+#    - 官方维护的 DDG Python 接口
+#    - 避免直接解析 HTML（DDG 页面动态加载）
+#    - 支持文本搜索、图片搜索等
+#
+# 2. requests:
+#    - 处理 HTTP 请求、重定向、流式下载
+#    - 相比 urllib 更易用，异常处理更完善
+#    - 支持 Session 复用连接
+#
+# 3. tqdm:
+#    - 提供进度条（暂未集成，但预留扩展）
+#    - 大批量下载时提升用户体验

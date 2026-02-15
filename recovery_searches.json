@@ -1,0 +1,218 @@
+[
+  {
+    "query": "TI application_note dc-dc filetype:pdf",
+    "vendor": "TI",
+    "doc_type": "application_note",
+    "priority": 310
+  },
+  {
+    "query": "TI standard dc-dc filetype:pdf",
+    "vendor": "TI",
+    "doc_type": "standard",
+    "priority": 288
+  },
+  {
+    "query": "Microchip application_note dc-dc filetype:pdf",
+    "vendor": "Microchip",
+    "doc_type": "application_note",
+    "priority": 272
+  },
+  {
+    "query": "onsemi application_note dc-dc filetype:pdf",
+    "vendor": "onsemi",
+    "doc_type": "application_note",
+    "priority": 271
+  },
+  {
+    "query": "ST application_note dc-dc filetype:pdf",
+    "vendor": "ST",
+    "doc_type": "application_note",
+    "priority": 269
+  },
+  {
+    "query": "ADI application_note dc-dc filetype:pdf",
+    "vendor": "ADI",
+    "doc_type": "application_note",
+    "priority": 268
+  },
+  {
+    "query": "MPS application_note dc-dc filetype:pdf",
+    "vendor": "MPS",
+    "doc_type": "application_note",
+    "priority": 268
+  },
+  {
+    "query": "Infineon application_note dc-dc filetype:pdf",
+    "vendor": "Infineon",
+    "doc_type": "application_note",
+    "priority": 266
+  },
+  {
+    "query": "Vicor application_note dc-dc filetype:pdf",
+    "vendor": "Vicor",
+    "doc_type": "application_note",
+    "priority": 261
+  },
+  {
+    "query": "ROHM application_note dc-dc filetype:pdf",
+    "vendor": "ROHM",
+    "doc_type": "application_note",
+    "priority": 259
+  },
+  {
+    "query": "Microchip standard dc-dc filetype:pdf",
+    "vendor": "Microchip",
+    "doc_type": "standard",
+    "priority": 250
+  },
+  {
+    "query": "onsemi standard dc-dc filetype:pdf",
+    "vendor": "onsemi",
+    "doc_type": "standard",
+    "priority": 249
+  },
+  {
+    "query": "ST standard dc-dc filetype:pdf",
+    "vendor": "ST",
+    "doc_type": "standard",
+    "priority": 247
+  },
+  {
+    "query": "ADI standard dc-dc filetype:pdf",
+    "vendor": "ADI",
+    "doc_type": "standard",
+    "priority": 246
+  },
+  {
+    "query": "MPS standard dc-dc filetype:pdf",
+    "vendor": "MPS",
+    "doc_type": "standard",
+    "priority": 246
+  },
+  {
+    "query": "Infineon standard dc-dc filetype:pdf",
+    "vendor": "Infineon",
+    "doc_type": "standard",
+    "priority": 244
+  },
+  {
+    "query": "Vicor standard dc-dc filetype:pdf",
+    "vendor": "Vicor",
+    "doc_type": "standard",
+    "priority": 239
+  },
+  {
+    "query": "ROHM standard dc-dc filetype:pdf",
+    "vendor": "ROHM",
+    "doc_type": "standard",
+    "priority": 237
+  },
+  {
+    "query": "TI datasheet dc-dc filetype:pdf",
+    "vendor": "TI",
+    "doc_type": "datasheet",
+    "priority": 170
+  },
+  {
+    "query": "TI software dc-dc filetype:pdf",
+    "vendor": "TI",
+    "doc_type": "software",
+    "priority": 168
+  },
+  {
+    "query": "Microchip datasheet dc-dc filetype:pdf",
+    "vendor": "Microchip",
+    "doc_type": "datasheet",
+    "priority": 132
+  },
+  {
+    "query": "onsemi datasheet dc-dc filetype:pdf",
+    "vendor": "onsemi",
+    "doc_type": "datasheet",
+    "priority": 131
+  },
+  {
+    "query": "Microchip software dc-dc filetype:pdf",
+    "vendor": "Microchip",
+    "doc_type": "software",
+    "priority": 130
+  },
+  {
+    "query": "onsemi software dc-dc filetype:pdf",
+    "vendor": "onsemi",
+    "doc_type": "software",
+    "priority": 129
+  },
+  {
+    "query": "ST datasheet dc-dc filetype:pdf",
+    "vendor": "ST",
+    "doc_type": "datasheet",
+    "priority": 129
+  },
+  {
+    "query": "ADI datasheet dc-dc filetype:pdf",
+    "vendor": "ADI",
+    "doc_type": "datasheet",
+    "priority": 128
+  },
+  {
+    "query": "MPS datasheet dc-dc filetype:pdf",
+    "vendor": "MPS",
+    "doc_type": "datasheet",
+    "priority": 128
+  },
+  {
+    "query": "ST software dc-dc filetype:pdf",
+    "vendor": "ST",
+    "doc_type": "software",
+    "priority": 127
+  },
+  {
+    "query": "ADI software dc-dc filetype:pdf",
+    "vendor": "ADI",
+    "doc_type": "software",
+    "priority": 126
+  },
+  {
+    "query": "MPS software dc-dc filetype:pdf",
+    "vendor": "MPS",
+    "doc_type": "software",
+    "priority": 126
+  },
+  {
+    "query": "Infineon datasheet dc-dc filetype:pdf",
+    "vendor": "Infineon",
+    "doc_type": "datasheet",
+    "priority": 126
+  },
+  {
+    "query": "Infineon software dc-dc filetype:pdf",
+    "vendor": "Infineon",
+    "doc_type": "software",
+    "priority": 124
+  },
+  {
+    "query": "Vicor datasheet dc-dc filetype:pdf",
+    "vendor": "Vicor",
+    "doc_type": "datasheet",
+    "priority": 121
+  },
+  {
+    "query": "Vicor software dc-dc filetype:pdf",
+    "vendor": "Vicor",
+    "doc_type": "software",
+    "priority": 119
+  },
+  {
+    "query": "ROHM datasheet dc-dc filetype:pdf",
+    "vendor": "ROHM",
+    "doc_type": "datasheet",
+    "priority": 119
+  },
+  {
+    "query": "ROHM software dc-dc filetype:pdf",
+    "vendor": "ROHM",
+    "doc_type": "software",
+    "priority": 117
+  }
+]

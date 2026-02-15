@@ -1,0 +1,76 @@
+{
+    "description": "整合下载分类系统配置文件",
+    "version": "1.0.0",
+    
+    "paths": {
+        "download_dir": "./downloads_continuous",
+        "classified_dir": "D:/E-BOOK/axis-dcdc-pdf",
+        "kb_system": "D:/E-BOOK/axis-SQLite",
+        "comment": "download_dir: 临时下载目录; classified_dir: 分类输出目录; kb_system: 知识库系统"
+    },
+    
+    "downloader": {
+        "chatgpt_headless": true,
+        "keywords_per_round": 10,
+        "results_per_keyword": 20,
+        "max_downloads_per_keyword": 20,
+        "max_rounds": 0,
+        "min_files_per_round": 3,
+        "round_interval": 10,
+        "keyword_reuse_days": 7,
+        "total_size_limit_gb": 100,
+        "total_files_limit": 10000,
+        "headless": true,
+        "focus_areas": [
+            "ISO 7637 transient immunity",
+            "automotive EMC EMI",
+            "transient voltage suppressor TVS",
+            "ESD protection automotive",
+            "EMI filter design",
+            "automotive reliability test",
+            "bidirectional buck-boost converter EMC",
+            "AEC-Q100 qualification",
+            "load dump protection",
+            "conducted emission radiated emission"
+        ],
+        "domain_whitelist": [
+            "ti.com",
+            "st.com",
+            "analog.com",
+            "infineon.com",
+            "onsemi.com",
+            "renesas.com",
+            "microchip.com",
+            "nxp.com",
+            "vishay.com",
+            "littelfuse.com",
+            "bourns.com",
+            "nexperia.com",
+            "murata.com",
+            "tdk.com",
+            "würth.com",
+            "kemet.com",
+            "rohde-schwarz.com",
+            "keysight.com",
+            "iso.org",
+            "sae.org"
+        ]
+    },
+    
+    "classifier": {
+        "head_pages": 3,
+        "min_stable_seconds": 15,
+        "scan_interval": 30,
+        "workers": 16,
+        "comment": "head_pages: 提取PDF前N页进行分类; min_stable_seconds: 文件稳定检测时间; workers: 并发处理线程数（推荐12-16，PDF解析受GIL限制实际加速2-3x）"
+    },
+    
+    "integration": {
+        "classify_after_download": true,
+        "classify_interval": 60,
+        "update_kb_after_classify": true,
+        "kb_update_interval": 1,
+        "kb_workers": 4,
+        "comment": "update_kb_after_classify: 分类后自动更新知识库; kb_update_interval: 每N轮更新一次; kb_workers: 知识库并行处理数"
+    }
+}
