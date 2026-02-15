@@ -1,12 +1,15 @@
 {
-    "description": "整合下载分类系统配置文件",
-    "version": "1.0.0",
+    "description": "AlaiDocs 整合下载分类系统 — 模板配置 (入Git)",
+    "version": "2.0.0",
+    "_comment": "所有路径均为相对路径(基于项目根目录)。用户可创建 alaidocs_config.json 覆盖。",
     
     "paths": {
-        "download_dir": "./downloads_continuous",
-        "classified_dir": "D:/E-BOOK/axis-dcdc-pdf",
-        "kb_system": "D:/E-BOOK/axis-SQLite",
-        "comment": "download_dir: 临时下载目录; classified_dir: 分类输出目录; kb_system: 知识库系统"
+        "download_dir": "data/downloads",
+        "classified_dir": "data/classified",
+        "kb_dir": "data/kb",
+        "pack_output": "data/packed",
+        "keywords_db": "data/keywords.json",
+        "comment": "全部为相对路径; 也可在 alaidocs_config.json 中使用绝对路径覆盖"
     },
     
     "downloader": {

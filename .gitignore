@@ -1,0 +1,17 @@
+# AlaiDocs — 运行时文件 (不入 Git)
+alaidocs_config.json
+alaidocs.log
+data/
+*.db
+__pycache__/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.swp
+*.swo
