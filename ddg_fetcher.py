@@ -25,7 +25,12 @@ from typing import Dict, List, Optional, Set, Tuple
 from urllib.parse import unquote, urlparse
 
 import requests
-from duckduckgo_search import DDGS
+
+# 优先使用新版 ddgs 包，回退到旧版 duckduckgo_search
+try:
+    from ddgs import DDGS
+except ImportError:
+    from duckduckgo_search import DDGS
 
 # ============================================================================
 # 配置常量
@@ -343,27 +348,27 @@ class DDGSearcher:
         
         try:
             self.logger.info(f"搜索: {query}")
-            
-            with DDGS() as ddgs:
-                search_results = ddgs.text(
-                    query,
-                    region=region,
-                    safesearch="off",
-                    max_results=max_results
-                )
-                
-                for r in search_results:
-                    results.append({
-                        "title": r.get("title", ""),
-                        "url": r.get("href", ""),
-                        "body": r.get("body", "")
-                    })
-            
+
+            ddgs = DDGS()
+            search_results = ddgs.text(
+                query,
+                region=region,
+                safesearch="off",
+                max_results=max_results,
+            )
+
+            for r in search_results:
+                results.append({
+                    "title": r.get("title", ""),
+                    "url": r.get("href", ""),
+                    "body": r.get("body", "")
+                })
+
             self.logger.info(f"找到 {len(results)} 个结果")
-            
+
             # 限速
             time.sleep(self.sleep_interval)
-            
+
         except Exception as e:
             self.logger.error(f"搜索失败: {e}")
         
