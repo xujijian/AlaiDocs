@@ -74,20 +74,111 @@ def translate_to_english(text: str) -> str:
 
 
 def extract_keywords(query: str) -> List[str]:
-    """提取查询关键词"""
+    """提取查询关键词（含缩写展开和驼峰/连写拆分）"""
     import re
     # 移除常见停用词
     stopwords = {'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 
                  'of', 'with', 'by', 'from', 'as', 'is', 'was', 'are', 'were', 'be',
                  'within', 'options', 'selection', 'choose', 'comparison'}
-    
+
+    # DC-DC 领域常用缩写映射
+    ABBREVIATIONS = {
+        'bi': 'bidirectional',
+        'bb': 'buck boost',
+        'buckboost': 'buck boost',
+        'bibuckboost': 'bidirectional buck boost',
+        'dcdc': 'dc dc',
+        'llc': 'llc resonant',
+        'emi': 'electromagnetic interference',
+        'emc': 'electromagnetic compatibility',
+        'esd': 'electrostatic discharge',
+        'pcb': 'printed circuit board',
+        'gan': 'gallium nitride',
+        'sic': 'silicon carbide',
+        'mosfet': 'mosfet',
+        'sepic': 'sepic',
+        'smps': 'switched mode power supply',
+        'pfc': 'power factor correction',
+        'mppt': 'maximum power point tracking',
+        'bms': 'battery management system',
+    }
+
+    # 先尝试整串缩写匹配
+    query_lower = query.lower().strip()
+    if query_lower in ABBREVIATIONS:
+        expanded = ABBREVIATIONS[query_lower]
+        words = re.findall(r'\w+', expanded)
+        return [w for w in words if len(w) > 1]
+
+    # 驼峰 / 连写拆分: "buckBoost" → "buck Boost", "bibuckboost" → 尝试子串匹配
+    expanded_query = re.sub(r'([a-z])([A-Z])', r'\1 \2', query)  # camelCase
+    # 按已知技术词拆分连写 (贪心匹配)
+    KNOWN_TOKENS = sorted([
+        'bidirectional', 'buck', 'boost', 'converter', 'inverting',
+        'synchronous', 'resonant', 'isolated', 'flyback', 'forward',
+        'half', 'bridge', 'full', 'phase', 'shifted', 'charge', 'pump',
+        'sepic', 'cuk', 'zeta', 'llc', 'dab', 'controller', 'regulator',
+        'driver', 'gate', 'mosfet', 'gan', 'sic', 'efficiency', 'thermal',
+        'emi', 'emc', 'esd', 'pcb', 'layout', 'datasheet', 'design',
+        'power', 'voltage', 'current', 'output', 'input', 'switching',
+        'frequency', 'loop', 'compensation', 'feedback', 'control',
+    ], key=len, reverse=True)
+
+    def split_compound(word):
+        """贪心拆分连写词: 'bibuckboost' → ['bi','buck','boost']"""
+        result = []
+        w = word.lower()
+        while w:
+            matched = False
+            for token in KNOWN_TOKENS:
+                if w.startswith(token):
+                    result.append(token)
+                    w = w[len(token):]
+                    matched = True
+                    break
+            if not matched:
+                # 没匹配到已知词，取整个剩余
+                if w:
+                    result.append(w)
+                break
+        return result
+
     # 分词
-    words = re.findall(r'\w+', query.lower())
-    
-    # 过滤停用词和短词
-    keywords = [w for w in words if len(w) > 2 and w not in stopwords]
-    
-    return keywords
+    words = re.findall(r'\w+', expanded_query.lower())
+
+    # 对每个词尝试拆分 + 缩写展开
+    all_keywords = []
+    for w in words:
+        if w in stopwords or len(w) < 2:
+            continue
+        # 缩写展开
+        if w in ABBREVIATIONS:
+            expanded_words = re.findall(r'\w+', ABBREVIATIONS[w])
+            all_keywords.extend(expanded_words)
+        # 长连写词拆分
+        elif len(w) > 8:
+            parts = split_compound(w)
+            if len(parts) > 1:
+                # 拆分成功，展开缩写
+                for p in parts:
+                    if p in ABBREVIATIONS:
+                        all_keywords.extend(re.findall(r'\w+', ABBREVIATIONS[p]))
+                    elif len(p) > 1 and p not in stopwords:
+                        all_keywords.append(p)
+            else:
+                all_keywords.append(w)
+        elif len(w) > 2:
+            all_keywords.append(w)
+
+    # 去重保序
+    seen = set()
+    unique = []
+    for kw in all_keywords:
+        if kw not in seen:
+            seen.add(kw)
+            unique.append(kw)
+
+    return unique if unique else [query_lower]
 
 
 def search_fts5(query: str, kb_path: Path, limit: int = 100) -> List[Dict]:
